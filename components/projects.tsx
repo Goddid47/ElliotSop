@@ -7,6 +7,21 @@ import { ExternalLink, Github } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 const projects = [
+  
+  {
+    title: 'Active Directory Attack Toolkit',
+    description: 'Comprehensive toolkit for AD enumeration, credential harvesting, and lateral movement. Includes Kerberoasting, AS-REP roasting, DCSync, and Golden Ticket attack implementations with OPSEC considerations.',
+    tags: ['PowerShell', 'Active Directory', 'Post-Exploitation'],
+    category: 'Red Team Tools',
+    github: 'https://github.com/00ElliotSop/AD-Attack-Toolkit',
+  },  
+  {
+    title: 'WiFi Handshake Capture Tool',
+    description: 'Automated wireless security assessment tool for capturing WPA/WPA2 handshakes, performing deauth attacks, and brute-force analysis. Features wordlist optimization and hash cracking integration.',
+    tags: ['Python', 'WiFi Security', 'Penetration Testing'],
+    category: 'Network Tools',
+    github: 'https://github.com/00ElliotSop',
+  },
   {
     title: 'PE Injector Framework',
     description: 'Advanced portable executable injection framework with multiple injection techniques including Process Hollowing, Thread Hijacking, and APC Queue injection. Implements syscall obfuscation and in-memory execution for AV/EDR evasion.',
@@ -21,20 +36,7 @@ const projects = [
     category: 'Research',
     github: 'https://github.com/00ElliotSop',
   },
-  {
-    title: 'WiFi Handshake Capture Tool',
-    description: 'Automated wireless security assessment tool for capturing WPA/WPA2 handshakes, performing deauth attacks, and brute-force analysis. Features wordlist optimization and hash cracking integration.',
-    tags: ['Python', 'WiFi Security', 'Penetration Testing'],
-    category: 'Network Tools',
-    github: 'https://github.com/00ElliotSop',
-  },
-  {
-    title: 'Active Directory Attack Toolkit',
-    description: 'Comprehensive toolkit for AD enumeration, credential harvesting, and lateral movement. Includes Kerberoasting, AS-REP roasting, DCSync, and Golden Ticket attack implementations with OPSEC considerations.',
-    tags: ['PowerShell', 'Active Directory', 'Post-Exploitation'],
-    category: 'Red Team Tools',
-    github: 'https://github.com/00ElliotSop/AD-Attack-Toolkit',
-  },
+
   {
     title: 'Custom C2 Framework',
     description: 'Lightweight command and control framework with encrypted communications, modular payload system, and anti-forensics capabilities. Built for red team operations with minimal footprint.',
