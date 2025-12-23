@@ -33,7 +33,7 @@ const projects = [
     description: 'Comprehensive toolkit for AD enumeration, credential harvesting, and lateral movement. Includes Kerberoasting, AS-REP roasting, DCSync, and Golden Ticket attack implementations with OPSEC considerations.',
     tags: ['PowerShell', 'Active Directory', 'Post-Exploitation'],
     category: 'Red Team Tools',
-    github: 'https://github.com/00ElliotSop',
+    github: 'https://github.com/00ElliotSop/AD-Attack-Toolkit',
   },
   {
     title: 'Custom C2 Framework',
