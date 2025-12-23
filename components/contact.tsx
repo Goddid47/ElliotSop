@@ -153,7 +153,7 @@ export default function Contact() {
       <div className="mt-24 py-8 border-t border-border">
         <div className="container mx-auto px-4">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} ElliotSop. Built with Next.js and Tailwind CSS.
+            © {new Date().getFullYear()} Built by ElliotSop.
           </p>
         </div>
       </div>
