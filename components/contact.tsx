@@ -9,7 +9,7 @@ import { Github, Linkedin, Mail, Key } from 'lucide-react'
 
 const socialLinks = [
   { name: 'GitHub', icon: Github, href: 'https://github.com/00ElliotSop', color: 'hover:text-primary' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com', color: 'hover:text-accent' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/in/padeshina', color: 'hover:text-accent' },
   { name: 'Email', icon: Mail, href: 'mailto:contact@elliotsop.com', color: 'hover:text-secondary' },
 ]
 
